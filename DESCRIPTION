@@ -1,0 +1,11 @@
+Package: PhenoComp
+Type: Package
+Title:Identification of population-level differentially expressed genes in one-phenotype data
+Version: 0.1.0
+Author: Jiajing Xie 
+Maintainer: Jiajing Xie <xiejiajing_fjmu@163.com>
+    Haidan Yan <Joyan168@126.com>
+Description: PhenoComp Identify population-level differentially expressed genes in one-phenotype data.
+License: No license
+Encoding: UTF-8
+LazyData: true
