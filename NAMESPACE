@@ -2,3 +2,4 @@
 
 export(PhenoComp)
 export(StablePairs)
+importFrom(foreach,"%dopar%")

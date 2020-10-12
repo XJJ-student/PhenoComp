@@ -4,7 +4,7 @@
 \alias{StablePairs}
 \title{Identification of population-level differentially expressed genes in one-phenotype data}
 \usage{
-StablePairs(expdata_list, freq = 0.99)
+StablePairs(expdata_list, freq = 0.99, ncore = parallel::detectCores())
 }
 \arguments{
 \item{expdata_list}{The gene expression profile list of the normal samples of
@@ -14,6 +14,8 @@ values of the normal samples.}
 
 \item{freq}{The criteria for identifying stable gene pairs in normal samples.
 The default setting of freq is 0.99.}
+
+\item{ncore}{Number of cores to parallelize over. Default uses all cores.}
 }
 \value{
 matrix with each row indicating a stable pair of
